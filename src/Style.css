@@ -1,0 +1,56 @@
+.body {
+    background-color: steelblue;
+    
+}
+
+.Sidebar {
+
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.Sidebar2 {
+    position: absolute;
+    background: steelblue;
+    color: white;
+    height: 100%;
+    width: 300px;
+}
+
+.Sidebar2 li {
+    list-style: none;
+    padding: 1rem 2rem;
+    border-bottom: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+    transform: translateX(-100%);
+    transition:all 0.4s;
+
+}
+
+.Sidebar2 li:hover {
+     background-color: white ;
+     color: black;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: none;
+
+}
+
+.Sidebar2-open {
+    transform: translateX(0%);
+}
